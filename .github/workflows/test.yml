@@ -3,6 +3,7 @@ on: push
 jobs:
   test:
     name: mytest
+    runs-on: ubuntu-latest
     steps:
       - name: html to pdf
         uses: misaelnieto/web_to_pdf_action@master
